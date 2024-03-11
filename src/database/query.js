@@ -62,4 +62,5 @@ function connectDB() {
             throw error
         })
 }
+
 module.exports = { insertDatasDB, deleteDatasDB, updateDatasDB, searchDatasDB, lastDataDB, connectDB }
