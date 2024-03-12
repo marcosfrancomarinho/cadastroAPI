@@ -11,5 +11,5 @@ app.use(bodyParser.json())
 app.use(router)
 connectDB() // para conectar ao banco de dados e criar a tabela.
 app.listen(PORT, () => {
-    console.log("Server Online")
+    console.log(`Server Online  http://localhost:${PORT}/`)
 })
